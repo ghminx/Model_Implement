@@ -9,7 +9,8 @@
 
 🔹 CNN (Convolutional Neural Network)
 
-- AlexNet 
+- AlexNet
+- VGGNet 
 
 🔹 Time Series
 
@@ -22,3 +23,7 @@
 
 - Seq2Seq 
 - Transformer
+
+🔹 AutoEncoder
+
+- Anomaly_Detection
