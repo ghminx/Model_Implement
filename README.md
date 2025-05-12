@@ -10,7 +10,8 @@
 🔹 CNN (Convolutional Neural Network)
 
 - AlexNet
-- VGGNet 
+- VGGNet
+- Inception V1
 
 🔹 Time Series
 
