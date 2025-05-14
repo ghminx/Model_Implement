@@ -12,6 +12,7 @@
 - AlexNet
 - VGGNet
 - Inception V1
+- ResNet
 
 🔹 Time Series
 
