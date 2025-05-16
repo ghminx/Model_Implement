@@ -83,13 +83,15 @@ class BottleNeck(nn.Module):
         
         self.layer1 = nn.Sequential(
             nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=1, bias=False),
-            nn.BatchNorm2d(out_channels)
+            nn.BatchNorm2d(out_channels),
+            nn.ReLU(inplace=True)
         )
         
         # 3x3 Conv에만 stride가 변경됨
         self.layer2 = nn.Sequential(
             nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=stride, padding=1, bias=False),
-            nn.BatchNorm2d(out_channels)
+            nn.BatchNorm2d(out_channels),
+            nn.ReLU(inplace=True)
         )
         
         self.layer3 = nn.Sequential(
@@ -109,7 +111,6 @@ class BottleNeck(nn.Module):
         
     def forward(self, x):
         
-
         identity = x
         
         x = self.layer1(x)
