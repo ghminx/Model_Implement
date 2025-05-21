@@ -13,6 +13,8 @@
 - VGGNet
 - Inception V1
 - ResNet
+- MobileNetV1
+- DenseNet
 
 🔹 Time Series
 
