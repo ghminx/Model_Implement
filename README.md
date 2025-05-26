@@ -7,7 +7,7 @@
 -  Logistic Regression 
 -  MLP 
 
-🔹 CNN (Convolutional Neural Network)
+🔹 Vision
 
 - AlexNet
 - VGGNet
