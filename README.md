@@ -15,6 +15,7 @@
 - ResNet
 - MobileNetV1
 - DenseNet
+- ViT
 
 🔹 Time Series
 
